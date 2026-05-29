@@ -3,58 +3,40 @@
 % !TEX encoding = UTF-8
 % !TeX spellcheck = en_US
 
-\documentclass[11pt, a4paper]{article}
-%\usepackage{fullpage}
-\usepackage[left=1cm,right=1cm,top=1cm,bottom=2cm]{geometry}
-\usepackage[fleqn]{amsmath}
-\usepackage{amssymb}
-%\usepackage{indentfirst}
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage[french,english]{babel}
-\usepackage{txfonts} 
-\usepackage[]{graphicx}
-\usepackage{multirow}
-\usepackage{hyperref}
-\usepackage{parskip}
-\usepackage{multicol}
-\usepackage{wrapfig}
-\usepackage{amssymb}
-\usepackage{longtable}
-\usepackage{wasysym}
+\documentclass{../extra/aakpract/aakpract}
 
+\usepackage{listings}
+\usepackage{makecell}
 
-\usepackage{turnstile}%Induction symbole
+\usetikzlibrary{shapes.geometric}
 
-\usepackage{tikz}
-\usetikzlibrary{arrows, automata}
-\usetikzlibrary{decorations.pathmorphing}
-
-\renewcommand{\baselinestretch}{1}
-
-\setlength{\parindent}{24pt}
+\settitle{Parsing}
+\setversion{Tutorial}
+\setyear{2025-2026}
+\setauthor{Dr. Abdelkrime Aries}
+\setfooter{Tutorial: Parsing}
 
 
 \begin{document}
+	
+	\maketitle
+	
+	\begin{center}
+		\begin{minipage}{0.85\textwidth}
+			\small\itshape
+			This tutorial introduces the main concepts behind sequence labeling in NLP through the example of Part-of-Speech (PoS) tagging. 
+			Sequence labeling consists in assigning a label to each token in a sentence while accounting for contextual dependencies between words and labels.
+			
+			\vspace{6pt}
+			The tutorial reviews several modeling approaches, including generative models such as Hidden Markov Models (HMMs), discriminative models like Maximum Entropy Markov Models (MEMMs), and neural architectures based on recurrent neural networks (RNNs) and Transformers. 
+			Through analytical questions and decoding exercises, students explore how these models represent contextual information, model label dependencies, and predict the most probable sequence of tags.
+			
+		\end{minipage}
+	\end{center}
 
-%\selectlanguage {french}
-%\pagestyle{empty} 
-
-\noindent
-\begin{tabular}{ll}
-\multirow{3}{*}{\includegraphics[width=1.5cm]{../extra/logo/esi.nlp.pdf}} & 
-\'Ecole national Supérieure d'Informatique\\
-& 2\textsuperscript{nd} year second cycle (2CSSID)\\
-& NLP: Natural Language Processing (2022-2023)
-\end{tabular}\\[.25cm]
-\noindent\rule{\textwidth}{2pt}\\[-0.5cm]
-\begin{center}
-{\LARGE \textbf{Tutorial: Words semantics}}
-\begin{flushright}
-	Abdelkrime Aries
-\end{flushright}
-\end{center}\vspace{-0.5cm}
-\noindent\rule{\textwidth}{2pt}
+	\section{Quizzes}
+	
+	
 
 \section*{1. General knowledge}
 

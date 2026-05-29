@@ -1,14 +1,14 @@
-# <img src="extra/logo/esi.nlp-logo.png" width=100px> "Natural language processing" course (ESI, Alger)
+# <img src="extra/logo/esi.nlp-logo.png" width=100px> Natural Language Processing
 
-[![Type](https://img.shields.io/badge/type-Course-0014A8.svg?style=flat)](https://github.com/projeduc/ESI_NLP)
+[![Type](https://img.shields.io/badge/type-Course-0014A8.svg?style=flat)](https://github.com/projeduc/projeduc_NLP)
 [![License](https://img.shields.io/badge/license-CC--BY_4.0-0014A8.svg?style=flat)](https://creativecommons.org/licenses/by/4.0/deed.en)
-[![GitHub release](https://img.shields.io/github/release/projeduc/ESI_NLP.svg)](https://github.com/projeduc/ESI_NLP/releases)
-[![Github All Releases](https://img.shields.io/github/downloads/projeduc/ESI_NLP/total.svg)](https://github.com/projeduc/ESI_NLP/releases)
-[![Github Release](https://img.shields.io/github/downloads/projeduc/ESI_NLP/latest/total.svg)](https://github.com/projeduc/ESI_NLP/releases/latest)
+[![GitHub release](https://img.shields.io/github/release/projeduc/projeduc_NLP.svg)](https://github.com/projeduc/projeduc_NLP/releases)
+[![Github All Releases](https://img.shields.io/github/downloads/projeduc/projeduc_NLP/total.svg)](https://github.com/projeduc/projeduc_NLP/releases)
+[![Github Release](https://img.shields.io/github/downloads/projeduc/projeduc_NLP/latest/total.svg)](https://github.com/projeduc/projeduc_NLP/releases/latest)
 
 This repository contains NLP course presentations, demos and labs proposed by Ecole nationale Supéieure d'Informatique (ESI), Alger, Algeria.
 
-[Download the course HERE](https://github.com/projeduc/ESI_NLP/releases/latest)
+[Download the course HERE](https://github.com/projeduc/projeduc_NLP/releases/latest)
 
 Natural Language Processing (NLP) is an interdisciplinary field involving linguistics, computer science, and artificial intelligence. It is dedicated to the understanding and generation of human language by computers. With the emergence of language models such as OpenAI's GPT, Google's BERT, and others, NLP has become a rapidly growing field with increasing importance in various industries and domains.
 

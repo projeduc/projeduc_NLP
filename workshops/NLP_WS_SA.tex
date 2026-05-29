@@ -3,63 +3,38 @@
 % !TEX encoding = UTF-8
 % !TEX spellcheck = en_US
 
-\documentclass[11pt, a4paper]{article}
-%\usepackage{fullpage}
-\usepackage[left=1cm,right=1cm,top=1cm,bottom=2cm]{geometry}
-\usepackage[fleqn]{amsmath}
-\usepackage{amssymb}
-%\usepackage{indentfirst}
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage[french,english]{babel}
-\usepackage{txfonts} 
-\usepackage[]{graphicx}
-\usepackage{multirow}
-\usepackage{hyperref}
-\usepackage{parskip}
-\usepackage{multicol}
-\usepackage{wrapfig}
+\documentclass{../extra/aakpract/aakpract}
 
-\usepackage{turnstile}%Induction symbole
+\usepackage{listings}
+\usepackage{makecell}
 
-\usepackage{tikz}
-\usetikzlibrary{arrows, automata}
-\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{shapes.geometric}
 
-\renewcommand{\baselinestretch}{1}
-
-\setlength{\parindent}{0pt}
+\settitle{Sentiment analysis}
+\setversion{Workshop}
+\setyear{2025-2026}
+\setauthor{Dr. Abdelkrime Aries}
+\setfooter{WS: Sentiment}
 
 
 \begin{document}
 
-%\selectlanguage {french}
-%\pagestyle{empty} 
+\maketitle
 
-\noindent
-\begin{tabular}{ll}
-	\multirow{3}{*}{\includegraphics[width=1.5cm]{../../extra/logo/esi.nlp.pdf}} & \'Ecole national Supérieure d'Informatique\\
-	& 2\textsuperscript{nd} year second cycle (2CSSID)\\
-	& NLP: Natural Language Processing (2022-2023)
-\end{tabular}\\[.25cm]
-\noindent\rule{\textwidth}{2pt}\\[-0.5cm]
 \begin{center}
-	{\LARGE \textbf{Workshop 01: Sentiment analysis}}
-	\begin{flushright}
-		Abdelkrime Aries
-	\end{flushright}
-\end{center}\vspace{-0.5cm}
-\noindent\rule{\textwidth}{2pt}
-
-This is a guided ungraded lab. 
-Its purpose of workshops is to understand how to use some high level API's to solve a problem based on some demos about these API's.
-The problem we want to solve in this workshop is a well known one: text-based sentiment analysis.
-Our aim is to understand how to manipulate different representations of words/sentences.
+	\begin{minipage}{0.85\textwidth}
+		\small\itshape
+		This is a guided ungraded lab. 
+		Its purpose of workshops is to understand how to use some high level API's to solve a problem based on some demos about these API's.
+		The problem we want to solve in this workshop is a well known one: text-based sentiment analysis.
+		Our aim is to understand how to manipulate different representations of words/sentences.
+	\end{minipage}
+\end{center}
 
 
 \section*{General information}
 
-\subsection*{Data}
+\subsection{Data}
 
 Financial sentiment analysis:
 \begin{itemize}
@@ -74,7 +49,7 @@ Sentiment Lexicons for Text Mining:
 	\item Description: A lexicon of English words with their sentiment orientation.
 \end{itemize}
 
-\subsection*{Tools}
+\subsection{Tools}
 
 NLTK, Scikit-learn, numpy, pandas, tensorflow, gensim
 
@@ -87,7 +62,7 @@ NLTK, Scikit-learn, numpy, pandas, tensorflow, gensim
 %	\item gensim
 %\end{itemize}
 
-\subsection*{Demos}
+\subsection{Demos}
 
 \begin{itemize}
 	\item NLTK: \url{https://github.com/projeduc/ESI_TALN/blob/master/tuto/CH06/encoding_python_NLTK.ipynb}
